@@ -31,6 +31,9 @@ A new folder will be created "gameplay_logs" that contains images + mouse draggi
 ## Test Trained Data
 Run the file "run.py" to test
 
+## Results
+TODO
+
 ## Note
 If you're trying to run this on Windows, you might have some issues with mouse drag using pyautogui library.
 
