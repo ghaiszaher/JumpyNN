@@ -1,0 +1,24 @@
+{
+    "monitor": {
+        "left": 495,
+        "top": 180,
+        "width": 360, 
+        "height": 563 
+    },
+    "drag_duration": 0,
+    "distance_pi_ratio": 26.578875496346523,
+    "buttons": {
+        "back": {
+            "rel_y": 0.05277777777777778,
+            "rel_x": 0.03350083752093802
+        },
+        "play_single": {
+            "rel_y": 0.5,
+            "rel_x": 0.7822445561139029
+        },
+        "no_thanks": {
+            "rel_y": 0.5,
+            "rel_x": 0.9095477386934674
+        }
+    }
+}

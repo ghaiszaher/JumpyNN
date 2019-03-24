@@ -9,15 +9,19 @@ Make sure that the following are installed:
 * Keras
 * Tensorflow
 * Opencv2 & Numpy
+* Pillow
 * pynput
 * pyautogui
-* Pillow
+* mss
 
 ## Adjust Configuration Files
-TODO
+For this version, auto-calibration was not made. You need to open [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294) and go to the file "jumpy_settings" to adjust the following:
+* monitor.left & monitor.top: the location of the game's div relative to the screen
+* monitor.width & monitor.height: the size of the game's div
 
 ## Capture Data
-TODO
+Run the file "record.py" and play the game to collect images & outputs for your gameplay.
+A new folder will be created "gameplay_logs" that contains images + mouse dragging movement info during the gameplay.
 
 ## Train
 TODO
