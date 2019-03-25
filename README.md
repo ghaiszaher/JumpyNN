@@ -1,6 +1,6 @@
 # JumpyNN
 
-This project is a trial to train a neural network to solve [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294)
+This project is a trial to train a neural network to play [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294)
 
 ## Dependencies
 
@@ -19,6 +19,9 @@ Make sure that the following are installed:
 For this version, auto-calibration was not made. You need to open [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294) and go to the file "jumpy_settings" to adjust the following:
 * monitor.left & monitor.top: the location of the game's div relative to the screen
 * monitor.width & monitor.height: the size of the game's div
+
+## Adjust Template Files
+TODO
 
 ## Capture Data
 Run the file "record.py" and play the game to collect images & outputs for your gameplay.
