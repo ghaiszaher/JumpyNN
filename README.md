@@ -11,7 +11,6 @@ Make sure that the following are installed:
 * Opencv2 & Numpy
 * Pillow
 * pynput
-* pyautogui
 * mss
 * Jupyter Notebook
 

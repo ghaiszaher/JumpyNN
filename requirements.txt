@@ -1,0 +1,7 @@
+opencv
+numpy
+pynput
+tensorflow
+keras
+mss
+pillow

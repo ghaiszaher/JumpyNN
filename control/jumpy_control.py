@@ -10,8 +10,6 @@ import pyautogui
 import random
 import math
 import time
-from pynput import keyboard
-
 
 class Jumpy:
 
@@ -728,72 +726,7 @@ if __name__ == "__main__":
             quit = True
             break
 
-        #########################################
-        #########################################
-        ####### TEMPORARY *** KEYBOARD #########
-        #########################################
-        #########################################
-        keyboard_angle = math.pi/12
 
-        def on_press(key):
-            global button
-            global ctrl
-            try:
-                print('alphanumeric key {0} pressed'.format(
-                    key.char))
-                button = key.char
-            except AttributeError:
-                print('special key {0} pressed'.format(
-                    key))
-            if key == keyboard.Key.left:
-                button = 'left'
-                # j.drag_angle(keyboard_angle)
-            elif key == keyboard.Key.right:
-                button = 'right'
-                # j.drag_angle(-keyboard_angle)
-            elif key == keyboard.Key.ctrl:
-                print("ctrl=True")
-                ctrl = True
-            elif key == keyboard.Key.esc:
-                # Stop listener
-                global is_keyboard
-                is_keyboard = False
-                return False
-
-        def on_release(key):
-            global ctrl
-            global button
-
-            if key == keyboard.Key.ctrl:
-                print("ctrl=False")
-                ctrl = False
-            elif key in (keyboard.Key.left, keyboard.Key.right):
-                button = None
-            print('{0} released'.format(
-                key))
-
-        if k & 0xFF == ord('k'):
-            is_keyboard = not is_keyboard
-        if is_keyboard:
-            if not keyboard_thread or not keyboard_thread.is_alive():
-                keyboard_thread = keyboard.Listener(
-                    on_press=on_press, on_release=on_release)
-                keyboard_thread.start()
-
-            angle = keyboard_angle
-            if ctrl:
-                angle *= 2
-            if button == 'left':
-                j.drag_angle(-angle)
-            elif button == 'right':
-                j.drag_angle(angle)
-        elif button:
-            button = None
-
-        #########################################
-        #########################################
-        #########################################
-        #########################################
         if k & 0xFF == ord('s'):
             start = maxstart if not start else 0
             j.center_mouse()
