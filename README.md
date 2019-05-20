@@ -1,5 +1,5 @@
 <p align="center">
- <img src="images/banner.png">
+ <img src="images/banner_cropped.png">
 </p>
 
 # JumpyNN
@@ -30,7 +30,14 @@ For this version, auto-calibration was not made. You need to open [Facebook's Ju
 * monitor.width & monitor.height: the size of the game's div
 
 ## Adjust Template Files
-TODO
+Template files are responsible for determined wether the current screen is Main Menu, Scoreboard or Continue Playing. They are located in _templates_ folder:
+<p align="center">
+ <img src="templates/template_continue.png"> &nbsp;
+ <img src="templates/template_main_menu.png"> &nbsp;
+ <img src="templates/template_score_board.png"> &nbsp;
+</p>
+
+You need to replace these 3 images with images taken from your screen inside the gameplay.
 
 ## Adjust Ball Color
 From inside the game, make sure to adjust the ball color to the Pink one, otherwise you will need to change the colors settings.
@@ -57,4 +64,4 @@ Trained network's gameplay:
 
 
 ## Note
-If you're trying to run this on Windows, you might have some issues with mouse drag using pyautogui library.
+If you're trying to run this on Windows, you might have some issues with mouse drag using pyautogui library. I tested it on Ubuntu 18.04.2 LTS.
