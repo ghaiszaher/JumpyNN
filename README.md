@@ -1,6 +1,16 @@
+<p align="center">
+ <img src="images/banner.png">
+</p>
+
 # JumpyNN
 
 This project is a trial to train a neural network to play [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294)
+
+<p align="center">
+ <img src="images/game.png" height=300>
+</p>
+
+
 
 ## Dependencies
 
@@ -22,6 +32,12 @@ For this version, auto-calibration was not made. You need to open [Facebook's Ju
 ## Adjust Template Files
 TODO
 
+## Adjust Ball Color
+From inside the game, make sure to adjust the ball color to the Pink one, otherwise you will need to change the colors settings.
+<p align="center">
+ <img src="images/ball.png" height=300>
+</p>
+
 ## Capture Data
 Run the file "record.py" and play the game to collect images & outputs for your gameplay.
 A new folder will be created "gameplay_logs" that contains images + mouse dragging movement info during the gameplay.
@@ -34,11 +50,11 @@ A new folder will be created "gameplay_logs" that contains images + mouse draggi
 Run the file "run.py" to test
 
 ## Results
-TODO
+Trained network's gameplay:
+<p align="center">
+ <img src="images/gameplay_trained.gif" height=300>
+</p>
+
 
 ## Note
 If you're trying to run this on Windows, you might have some issues with mouse drag using pyautogui library.
-
-## TODO: Add Images
-
-## TODO: Add Results
