@@ -30,7 +30,7 @@ For this version, auto-calibration was not made. You need to open [Facebook's Ju
 * monitor.width & monitor.height: the size of the game's div
 
 ## Adjust Template Files
-Template files are responsible for determined wether the current screen is Main Menu, Scoreboard or Continue Playing. They are located in _templates_ folder:
+Template files are responsible for determining wether the current screen is Main Menu, Scoreboard or Continue Playing. They are located in _templates_ folder:
 <p align="center">
  <img src="templates/template_continue.png"> &nbsp;
  <img src="templates/template_main_menu.png"> &nbsp;
