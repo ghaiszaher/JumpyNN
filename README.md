@@ -42,7 +42,7 @@ You need to replace these 3 images with images taken from your screen inside the
 ## Adjust Ball Color
 From inside the game, make sure to adjust the ball color to the Pink one, otherwise you will need to change the colors settings.
 <p align="center">
- <img src="images/ball.png" height=300>
+ <img src="images/ball.png" height="300">
 </p>
 
 ## Capture Data
