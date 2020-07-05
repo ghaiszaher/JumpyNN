@@ -59,7 +59,7 @@ Run the file "run.py" to test
 ## Results
 Trained network's gameplay:
 <p align="center">
- <img src="images/gameplay_trained.gif" height=300>
+ <img src="images/gameplay_trained.gif" height="300">
 </p>
 
 
