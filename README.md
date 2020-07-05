@@ -10,6 +10,9 @@ This project is a trial to train a neural network to play [Facebook's Jumpy Jump
  <img src="images/game.png" height="300">
 </p>
 
+# Code
+
+The full source code is available under GPL-3.0 License in my Github repository [ghaiszaher/JumpyNN](https://github.com/ghaiszaher/JumpyNN)
 
 
 ## Dependencies
