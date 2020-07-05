@@ -7,7 +7,7 @@
 This project is a trial to train a neural network to play [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294)
 
 <p align="center">
- <img src="images/game.png" height=300>
+ <img src="images/game.png" height="300">
 </p>
 
 
