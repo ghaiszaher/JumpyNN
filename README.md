@@ -1,8 +1,8 @@
+# JumpyNN
+
 <p align="center">
  <img src="images/banner_cropped.png">
 </p>
-
-# JumpyNN
 
 This project is a trial to train a neural network to play [Facebook's Jumpy Jumpy Game](https://www.facebook.com/instantgames/198982457542294)
 
