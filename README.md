@@ -68,3 +68,7 @@ Trained network's gameplay:
 
 ## Note
 If you're trying to run this on Windows, you might have some issues with mouse drag using pyautogui library. I tested it on Ubuntu 18.04.2 LTS.
+
+<div align="right">
+&copy; Ghais Zaher 2020
+</div>
